@@ -16,7 +16,7 @@ exports.create = (req,res)=>{
         status : req.body.status
     })
 
-    // Save user in the Mongo DB
+    // Save user in the MongoDB
     user
         .save(user)
         .then(data => {
